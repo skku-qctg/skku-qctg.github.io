@@ -6,6 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is the **SKKU Quantum Computing Theory Group** website, built on the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme. It's a static academic website hosted on GitHub Pages.
 
+### Related Repository
+
+- **Personal website**: `../seokhyung-lee.github.io` - Also an al-folio based Jekyll site. May share content (publications, styling patterns) with this group website.
+
 ## Common Commands
 
 ### Local Development with Docker (Recommended)
