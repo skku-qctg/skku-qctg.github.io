@@ -6,11 +6,6 @@ subtitle: >
   <a href="https://qie.skku.edu/qie/index.do">Department of Quantum Engineering</a>,
   <a href="https://www.skku.edu/eng/">Sungkyunkwan University (SKKU)</a>
 
-profile:
-  align: right
-  image:
-  image_circular: false
-
 selected_papers: false
 social: false
 
@@ -35,4 +30,8 @@ Our main research areas include:
 <div class="join-us" style="margin-top: 2rem; padding: 1rem; background-color: var(--global-bg-color); border-left: 4px solid var(--global-theme-color);">
 <h3 style="margin-top: 0;"><strong>Join Us</strong></h3>
 <p style="font-size: 1.1rem;"><strong>We are looking for motivated graduate students to join our group. Please contact us at <a href="mailto:seokhyunglee@skku.edu">seokhyunglee@skku.edu</a>.</strong></p>
+</div>
+
+<div style="margin-top: 3rem; text-align: center;">
+  <img src="/assets/img/skku_logo.png" alt="SKKU Logo" style="max-width: 400px;">
 </div>
