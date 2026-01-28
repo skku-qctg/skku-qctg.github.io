@@ -41,12 +41,12 @@
 
       .preview {
         display: inline-block;
-        max-width: 200px;
+        max-width: 300px;
       }
 
       .abbr {
         margin-bottom: 0.5rem;
-        min-width: 200px;
+        min-width: 300px;
 
         abbr {
           display: inline-block;
@@ -73,13 +73,13 @@
         font-weight: bolder;
 
         .prefix {
-          color: var(--global-theme-color);
+          color: var(--global-text-color);
           font-weight: normal;
           margin-right: 0.25rem;
         }
 
         a {
-          color: inherit;
+          color: var(--global-theme-color);
 
           &:hover {
             color: var(--global-theme-color);
