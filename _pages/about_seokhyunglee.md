@@ -1,4 +1,4 @@
-### Seok-Hyung Lee
-
-<a href="https://seokhyung-lee.github.io" title="Personal Website"><i class="fa-solid fa-globe fa-lg"></i></a>&nbsp;&nbsp;
-<a href="https://scholar.google.com/citations?user=NURGJAwAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar ai-lg"></i></a>
+| 2025 - Present | **Assistant Professor**, Sungkyunkwan University |
+| 2023 - 2025 | **Postdoctoral Associate**, University of Sydney (PI: Stephen Bartlett) |
+| 2017 - 2023 | **PhD in Physics**, Seoul National University (Advisor: Hyunseok Jeong) |
+| 2013 - 2017 | **BS in Physics**, Seoul National University |

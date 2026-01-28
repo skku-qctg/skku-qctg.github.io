@@ -1,0 +1,31 @@
+# Group members information
+# Add new members by copying the template below
+
+- name: Seok-Hyung Lee
+  section: Group Leader
+  image: prof_pic.jpeg
+  image_circular: true
+  align: left
+  content: about_seokhyunglee.md  # optional: markdown file in _pages/ for bio
+  links:
+    - type: website
+      url: https://seokhyung-lee.github.io
+    - type: google_scholar
+      url: https://scholar.google.com/citations?user=NURGJAwAAAAJ
+
+# Template for new members:
+# - name: Full Name
+#   section: Group Leader | PhD Students | Master Students | Undergraduate Students | Alumni
+#   image: filename.jpg  # place in assets/img/
+#   image_circular: true
+#   align: left
+#   content: about_name.md  # optional
+#   links:
+#     - type: website
+#       url: https://...
+#     - type: google_scholar
+#       url: https://scholar.google.com/citations?user=...
+#     - type: github
+#       url: https://github.com/...
+#     - type: email
+#       url: mailto:...

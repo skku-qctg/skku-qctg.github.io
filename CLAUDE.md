@@ -76,6 +76,7 @@ python bin/update_scholar_citations.py
 - **`_data/coauthors.yml`**: Co-author links for publications (group members have `group_member: true` for underline styling)
 - **`_data/citations.yml`**: Google Scholar citation counts (updated via `bin/update_scholar_citations.py`)
 - **`_data/repositories.yml`**: GitHub repos to display
+- **`_data/members.yml`**: Group members data (name, section, image, links, optional bio content file)
 
 ### Styling
 
@@ -138,3 +139,24 @@ Create `_projects/name.md` with frontmatter including `title`, `description`, `i
 
 ### New News Item
 Create `_news/announcement_N.md` with `layout: post`, `date`, and optional `inline: true` for inline display.
+
+### New Group Member
+Add entry to `_data/members.yml`:
+```yaml
+- name: Full Name
+  section: Group Leader | PhD Students | Master Students | Undergraduate Students | Alumni
+  image: filename.jpg  # place in assets/img/
+  image_circular: true
+  align: left
+  content: about_name.md  # optional bio file in _pages/
+  links:
+    - type: website
+      url: https://...
+    - type: google_scholar
+      url: https://scholar.google.com/citations?user=...
+    - type: github
+      url: https://github.com/...
+    - type: email
+      url: mailto:...
+```
+Supported link types: `website`, `google_scholar`, `github`, `email`, `orcid`, `linkedin`

@@ -3,12 +3,13 @@ layout: page
 ---
 <div class="post">
   <article>
-    {% if page.profiles %}
+    {% assign profiles = site.data.members %}
+    {% if profiles %}
       {% assign current_section = nil %}
-      {% for profile in page.profiles %}
+      {% for profile in profiles %}
         {% if profile.section and profile.section != current_section %}
           {% assign current_section = profile.section %}
-          <h2 id="{{ profile.section | slugify }}">{{ profile.section }}</h2>
+          <h2 class="member-section" id="{{ profile.section | slugify }}">{{ profile.section }}</h2>
         {% endif %}
         <hr>
         <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
@@ -28,11 +29,49 @@ layout: page
         </div>
 
         <div class="clearfix">
+          <h3 id="{{ profile.name | slugify }}">{{ profile.name }}</h3>
+          {% if profile.links %}
+            <table class="member-links">
+              {% for link in profile.links %}
+                <tr>
+                  <td class="link-icon">
+                    {% case link.type %}
+                      {% when 'website' %}
+                        <i class="fa-solid fa-globe"></i>
+                      {% when 'google_scholar' %}
+                        <i class="ai ai-google-scholar"></i>
+                      {% when 'github' %}
+                        <i class="fa-brands fa-github"></i>
+                      {% when 'email' %}
+                        <i class="fa-solid fa-envelope"></i>
+                      {% when 'orcid' %}
+                        <i class="ai ai-orcid"></i>
+                      {% when 'linkedin' %}
+                        <i class="fa-brands fa-linkedin"></i>
+                      {% else %}
+                        <i class="fa-solid fa-link"></i>
+                    {% endcase %}
+                  </td>
+                  <td class="link-text">
+                    <a href="{{ link.url }}">
+                      {% case link.type %}
+                        {% when 'website' %}Personal Website
+                        {% when 'google_scholar' %}Google Scholar
+                        {% when 'github' %}GitHub
+                        {% when 'email' %}Email
+                        {% when 'orcid' %}ORCID
+                        {% when 'linkedin' %}LinkedIn
+                        {% else %}{{ link.type }}
+                      {% endcase %}
+                    </a>
+                  </td>
+                </tr>
+              {% endfor %}
+            </table>
+          {% endif %}
           {% if profile.content %}
             {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
             {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
           {% endif %}
         </div>
       {% endfor %}

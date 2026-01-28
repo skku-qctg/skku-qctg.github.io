@@ -90,6 +90,58 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Member section title
+.member-section {
+  margin-top: 2rem;
+}
+
+// Member links table
+.member-links {
+  border: none;
+  border-collapse: collapse;
+  margin-bottom: 0.5rem;
+
+  tr {
+    border: none;
+  }
+
+  td {
+    border: none;
+    padding: 0.15em 0;
+  }
+
+  .link-icon {
+    text-align: center;
+    width: 1.5em;
+    padding-right: 0.5em;
+  }
+
+  .link-text {
+    text-align: left;
+  }
+}
+
+// Member bio table
+.member-bio {
+  border: none;
+  border-collapse: collapse;
+
+  tr {
+    border: none;
+  }
+
+  td {
+    border: none;
+    padding: 0.15em 0;
+    vertical-align: top;
+
+    &:first-child {
+      white-space: nowrap;
+      padding-right: 1em;
+    }
+  }
+}
+
 // CV
 
 .cv {
