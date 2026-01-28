@@ -34,7 +34,7 @@
             include figure.liquid
             loading="eager"
             path=entry_path
-            sizes = "200px"
+            sizes = "300px"
             class="preview z-depth-1 rounded"
             zoomable=true
             avoid_scaling=true
@@ -48,7 +48,20 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    <div class="title">
+      {%- if entry.prefix -%}
+        <span class="prefix">[{{ entry.prefix }}]</span>
+      {%- endif -%}
+      {%- if entry.doi -%}
+        <a href="https://doi.org/{{ entry.doi }}">{{ entry.title }}</a>
+      {%- elsif entry.arxiv -%}
+        <a href="http://arxiv.org/abs/{{ entry.arxiv }}">{{ entry.title }}</a>
+      {%- elsif entry.url -%}
+        <a href="{{ entry.url }}">{{ entry.title }}</a>
+      {%- else -%}
+        {{ entry.title }}
+      {%- endif -%}
+    </div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -60,6 +73,7 @@
 
       {%- for author in entry.author_array limit: author_array_limit -%}
         {% assign author_is_self = false %}
+        {% assign is_group_member = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
         {% if site.scholar.last_name contains author_last_name %}
@@ -73,9 +87,36 @@
           {%- for coauthor in site.data.coauthors[clean_last_name] -%}
             {% if coauthor.firstname contains author.first %}
               {%- assign coauthor_url = coauthor.url -%}
+              {% if coauthor.group_member %}
+                {% assign is_group_member = true %}
+              {% endif %}
               {% break %}
             {%- endif -%}
           {% endfor %}
+        {%- endif -%}
+
+        {%- comment -%} Abbreviate first name to initials {%- endcomment -%}
+        {%- assign first_name_parts = author.first | split: '-' -%}
+        {%- assign abbreviated_first = '' -%}
+        {%- for part in first_name_parts -%}
+          {%- assign initial = part | slice: 0 -%}
+          {%- if abbreviated_first != '' -%}
+            {%- assign abbreviated_first = abbreviated_first | append: '-' -%}
+          {%- endif -%}
+          {%- assign abbreviated_first = abbreviated_first | append: initial | append: '.' -%}
+        {%- endfor -%}
+        {%- if first_name_parts.size == 1 -%}
+          {%- assign first_words = author.first | split: ' ' -%}
+          {%- if first_words.size > 1 -%}
+            {%- assign abbreviated_first = '' -%}
+            {%- for word in first_words -%}
+              {%- assign initial = word | slice: 0 -%}
+              {%- if abbreviated_first != '' -%}
+                {%- assign abbreviated_first = abbreviated_first | append: ' ' -%}
+              {%- endif -%}
+              {%- assign abbreviated_first = abbreviated_first | append: initial | append: '.' -%}
+            {%- endfor -%}
+          {%- endif -%}
         {%- endif -%}
 
         {%- if forloop.length > 1 -%}
@@ -84,19 +125,26 @@
           {%- endif %}
           {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
         {% endif %}
-        {%- if author_is_self -%}
-          <em>
-            {{- author.first }}
-            {{ author_last_html -}}
-          </em>
-        {%- else -%}
+        {%- if author_is_self or is_group_member -%}
           {%- if coauthor_url -%}
-            <a href="{{ coauthor_url }}">
-              {{- author.first }}
+            <a href="{{ coauthor_url }}" class="group-member">
+              {{- abbreviated_first }}
               {{ author_last_html -}}
             </a>
           {%- else -%}
-            {{- author.first }}
+            <em>
+              {{- abbreviated_first }}
+              {{ author_last_html -}}
+            </em>
+          {%- endif -%}
+        {%- else -%}
+          {%- if coauthor_url -%}
+            <a href="{{ coauthor_url }}">
+              {{- abbreviated_first }}
+              {{ author_last_html -}}
+            </a>
+          {%- else -%}
+            {{- abbreviated_first }}
             {{ author_last_html -}}
           {% endif %}
         {%- endif -%}

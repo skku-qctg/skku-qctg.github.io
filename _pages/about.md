@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <a href="https://qie.skku.edu/qie/index.do">Department of Quantum Information Engineering</a>,
+  <a href="https://qie.skku.edu/qie/index.do">Department of Quantum Engineering</a>,
   <a href="https://www.skku.edu/eng/">Sungkyunkwan University (SKKU)</a>
 
 profile:
@@ -21,7 +21,7 @@ latest_posts:
   enabled: false
 ---
 
-The **SKKU Quantum Computing Theory Group** focuses on theoretical research in quantum information and computation, particularly on developing resource-efficient and fault-tolerant quantum computing strategies through **quantum error correction (QEC)**.
+Our group focuses on theoretical research in quantum information and computation, particularly on developing resource-efficient and fault-tolerant quantum computing strategies through **Quantum Error Correction (QEC).**
 
 ## Research Topics
 
@@ -32,6 +32,7 @@ Our main research areas include:
 - **Non-Clifford Gate Implementation**: Designing resource-efficient methods for implementing non-Clifford gates (e.g., magic state distillation)
 - **Photonic QEC**: Exploring fault-tolerant quantum computing using photonic qubits
 
-## Join Us
-
-We are looking for motivated graduate students to join our group. If you are interested in quantum error correction and fault-tolerant quantum computing, please contact us at [seokhyunglee@skku.edu](mailto:seokhyunglee@skku.edu).
+<div class="join-us" style="margin-top: 2rem; padding: 1rem; background-color: var(--global-bg-color); border-left: 4px solid var(--global-theme-color);">
+<h3 style="margin-top: 0;"><strong>Join Us</strong></h3>
+<p style="font-size: 1.1rem;"><strong>We are looking for motivated graduate students to join our group. Please contact us at <a href="mailto:seokhyunglee@skku.edu">seokhyunglee@skku.edu</a>.</strong></p>
+</div>

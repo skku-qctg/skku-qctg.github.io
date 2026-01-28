@@ -4,7 +4,12 @@ layout: page
 <div class="post">
   <article>
     {% if page.profiles %}
+      {% assign current_section = nil %}
       {% for profile in page.profiles %}
+        {% if profile.section and profile.section != current_section %}
+          {% assign current_section = profile.section %}
+          <h2 id="{{ profile.section | slugify }}">{{ profile.section }}</h2>
+        {% endif %}
         <hr>
         <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
           {% if profile.image %}
