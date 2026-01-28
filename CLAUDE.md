@@ -47,8 +47,14 @@ npx prettier --write .
 
 ```bash
 # Update Google Scholar citations
-python3 bin/update_scholar_citations.py
+python bin/update_scholar_citations.py
 ```
+
+**Google Scholar Citations:**
+- The script fetches citation counts using the `scholar_userid` from `_data/socials.yml`
+- Citation data is stored in `_data/citations.yml` with keys in format `{scholar_userid}:{google_scholar_id}`
+- Each paper in `papers.bib` needs a `google_scholar_id` field to display citations
+- Citations are displayed as badges on the publications page via `_layouts/bib.liquid`
 
 ## Architecture
 
@@ -67,7 +73,8 @@ python3 bin/update_scholar_citations.py
 - **`_config.yml`**: Main site configuration (URL, collections, plugins, scholar settings)
 - **`_data/cv.yml`**: CV data in RenderCV format (fallback if `assets/json/resume.json` is absent)
 - **`_data/socials.yml`**: Social media links
-- **`_data/coauthors.yml`**: Co-author links for publications
+- **`_data/coauthors.yml`**: Co-author links for publications (group members have `group_member: true` for underline styling)
+- **`_data/citations.yml`**: Google Scholar citation counts (updated via `bin/update_scholar_citations.py`)
 - **`_data/repositories.yml`**: GitHub repos to display
 
 ### Styling
