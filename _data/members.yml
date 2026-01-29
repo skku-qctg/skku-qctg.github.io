@@ -3,7 +3,7 @@
 
 - name: Seok-Hyung Lee
   section: Group Leader
-  image: prof_pic.jpeg
+  image: seokhyung-lee.jpeg
   image_circular: true
   align: left
   content: about_seokhyunglee.md  # optional: markdown file in _pages/ for bio

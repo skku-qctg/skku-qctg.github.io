@@ -16,7 +16,13 @@ latest_posts:
   enabled: false
 ---
 
-Our group focuses on theoretical research in quantum information and computation, particularly on developing resource-efficient and fault-tolerant quantum computing strategies through **Quantum Error Correction (QEC).**
+Our group focuses on theoretical research in **quantum information and computation**, particularly on developing resource-efficient and fault-tolerant quantum computing strategies through **Quantum Error Correction (QEC).**
+
+<div style="text-align: center;">
+  <img src="/assets/img/color_codes.webp" alt="Color Codes" style="width: 100%; max-width: 512px;">
+</div>
+
+---
 
 ## Research Topics
 
@@ -34,6 +40,8 @@ We also have <a href="https://www.quantiki.org/position/sungkyunkwan-sejong-univ
 Please contact us at <a href="mailto:seokhyunglee@skku.edu">seokhyunglee@skku.edu</a>.</strong></p>
 </div>
 
-<div style="margin-top: 3rem; text-align: center;">
-  <img src="/assets/img/skku_logo.png" alt="SKKU Logo" style="max-width: 400px;">
+---
+
+<div style="margin-top: 1rem; text-align: center;">
+  <img src="/assets/img/skku_logo.png" alt="SKKU Logo" style="width: 100%; max-width: 400px;">
 </div>
