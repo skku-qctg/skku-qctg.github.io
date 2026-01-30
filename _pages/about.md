@@ -29,15 +29,23 @@ Our group focuses on theoretical research in **quantum information and computati
 Our main research areas include:
 
 - **QEC Code & Circuit Design**: Developing and optimizing quantum error-correcting codes and their circuit implementations
-- **Decoding Algorithms**: Creating efficient algorithms to decode syndrome information and correct errors
-- **Non-Clifford Gate Implementation**: Designing resource-efficient methods for implementing non-Clifford gates (e.g., magic state distillation)
-- **Photonic QEC**: Exploring fault-tolerant quantum computing using photonic qubits
+- **Decoding Algorithms**: Creating high-performance and efficient algorithms to decode syndrome information and correct errors
+- **Non-Clifford Gate Implementation**: Designing resource-efficient methods for implementing non-Clifford gates (e.g., magic state distillation/cultivation)
+- **Photonic QEC**: Exploring measurement/fusion-based quantum computing with photonic qubits
 
 <div class="join-us" style="margin-top: 2rem; padding: 1rem; background-color: var(--global-bg-color); border-left: 4px solid var(--global-theme-color);">
 <h3 style="margin-top: 0;"><strong>Join Us</strong></h3>
-<p style="font-size: 1.1rem;"><strong>We are looking for motivated undergraduate/graduate students to join our group.<br>
-We also have <a href="https://www.quantiki.org/position/sungkyunkwan-sejong-university-co-advised-postdoc-quantum-error-correction-and-mitigation">one postdoc opening on QEC/QEM</a><br>
-Please contact us at <a href="mailto:seokhyunglee@skku.edu">seokhyunglee@skku.edu</a>.</strong></p>
+<ul style="font-size: 1.1rem; list-style: '▶  '; padding-left: 1.5rem; margin: 0;">
+<li>We are looking for <strong>motivated undergraduate/graduate students</strong> to join our group.</li>
+<li>We also have <strong><a href="https://www.quantiki.org/position/sungkyunkwan-sejong-university-co-advised-postdoc-quantum-error-correction-and-mitigation">one postdoc opening on QEC/QEM</a>.</strong></li>
+</ul>
+<p style="font-size: 1.1rem; margin-top: 0.5rem; margin-bottom: 0;">Please contact us at <a href="mailto:seokhyunglee@skku.edu">seokhyunglee@skku.edu</a>.</p>
+</div>
+
+---
+
+<div style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/BiBezQUnXdI?si=lgwdtpCGqqW2Kgjs" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ---
