@@ -26,6 +26,8 @@ docker compose -f docker-compose-slim.yml up
 docker compose up --build
 ```
 
+**Port configuration**: Use port 8080 by default. If port 8080 is already occupied, use another available port (e.g., 8081, 8082).
+
 ### Local Development without Docker
 
 ```bash
