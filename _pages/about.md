@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: >
   <a href="https://qie.skku.edu/qie/index.do">Department of Quantum Engineering</a>,
-  <a href="https://www.skku.edu/eng/">Sungkyunkwan University (SKKU)</a>
+  <a href="https://www.skku.edu/eng/">Sungkyunkwan University (SKKU)</a>, Suwon, Korea
 
 selected_papers: false
 social: false
