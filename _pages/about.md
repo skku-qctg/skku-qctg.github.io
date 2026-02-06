@@ -39,7 +39,7 @@ Our main research areas include:
 <li>We are looking for <strong>motivated undergraduate/graduate students</strong> to join our group.</li>
 <li>We also have <strong><a href="https://www.quantiki.org/position/sungkyunkwan-sejong-university-co-advised-postdoc-quantum-error-correction-and-mitigation">one postdoc opening in quantum error correction/mitigation</a>.</strong></li>
 </ul>
-<p style="font-size: 1.1rem; margin-top: 0.5rem; margin-bottom: 0;">Please contact us at <a href="mailto:seokhyunglee@skku.edu">seokhyunglee@skku.edu</a>.</p>
+<p style="font-size: 1.1rem; margin-top: 0.5rem; margin-bottom: 0;">Please contact us at <a href="mailto:SeokHyungLee@skku.edu">SeokHyungLee@skku.edu</a>.</p>
 </div>
 
 ---
