@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-28'
+  last_updated: '2026-02-06'
 papers:
   NURGJAwAAAAJ:9Nmd_mFXekcC:
     citations: 36
@@ -30,7 +30,7 @@ papers:
     title: Low-overhead magic state distillation with color codes
     year: '2025'
   NURGJAwAAAAJ:XD-gHx7UXLsC:
-    citations: 9
+    citations: 10
     title: Teleportation of a multiphoton qubit using hybrid entanglement with a loss-tolerant carrier qubit
     year: '2020'
   NURGJAwAAAAJ:Z5m8FVwuT1cC:
@@ -38,7 +38,7 @@ papers:
     title: Highly fault-tolerant quantum computing using both discrete and continuous variables of light
     year: '2023'
   NURGJAwAAAAJ:epqYDVWIO7EC:
-    citations: 30
+    citations: 31
     title: Graph-theoretical optimization of fusion-based graph state generation
     year: '2023'
   NURGJAwAAAAJ:nrtMV_XWKgEC:
@@ -46,7 +46,7 @@ papers:
     title: Universal hardware-efficient topological measurement-based quantum computation via color-code-based cluster states
     year: '2022'
   NURGJAwAAAAJ:p__nRnzSRKYC:
-    citations: 36
+    citations: 37
     title: Color code decoder with improved scaling for correcting circuit-level noise
     year: '2025'
   NURGJAwAAAAJ:t7zJ5fGR-2UC:
