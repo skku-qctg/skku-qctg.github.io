@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-09'
+  last_updated: '2026-02-20'
 papers:
   NURGJAwAAAAJ:9Nmd_mFXekcC:
     citations: 36
@@ -38,7 +38,7 @@ papers:
     title: Highly fault-tolerant quantum computing using both discrete and continuous variables of light
     year: '2023'
   NURGJAwAAAAJ:epqYDVWIO7EC:
-    citations: 31
+    citations: 32
     title: Graph-theoretical optimization of fusion-based graph state generation
     year: '2023'
   NURGJAwAAAAJ:nrtMV_XWKgEC:
@@ -46,12 +46,12 @@ papers:
     title: Universal hardware-efficient topological measurement-based quantum computation via color-code-based cluster states
     year: '2022'
   NURGJAwAAAAJ:p__nRnzSRKYC:
-    citations: 37
+    citations: 39
     title: Color code decoder with improved scaling for correcting circuit-level noise
     year: '2025'
   NURGJAwAAAAJ:t7zJ5fGR-2UC:
     citations: 3
-    title: Loss-tolerant concatenated Bell-state measurement with encoded coherent-state qubits for long-range quantum communication
+    title: Loss-tolerant concatenated bell-state measurement with encoded coherent-state qubits for long-range quantum communication
     year: '2021'
   NURGJAwAAAAJ:uWiczbcajpAC:
     citations: 26
@@ -62,7 +62,7 @@ papers:
     title: Virtual distillation with noise dilution
     year: '2023'
   NURGJAwAAAAJ:vbGhcppDl1QC:
-    citations: 2
+    citations: 3
     title: Photonic hybrid quantum computing
     year: '2025'
   NURGJAwAAAAJ:zLWjf1WUPmwC:
