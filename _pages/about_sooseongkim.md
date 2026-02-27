@@ -1,1 +1,0 @@
-2026 BS in Physics, Incheon National University

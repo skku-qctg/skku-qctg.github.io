@@ -18,7 +18,8 @@
   image: soo-seong-kim.jpg
   image_circular: true
   align: left
-  content: about_sooseongkim.md
+  more_info: |
+    2026 BS in Physics, Incheon National University
 
 # Template for new members:
 # - name: Full Name
