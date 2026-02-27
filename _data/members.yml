@@ -13,6 +13,15 @@
     - type: google_scholar
       url: https://scholar.google.com/citations?user=NURGJAwAAAAJ
 
+- name: Soo-Seong Kim
+  section: PhD Students
+  image: soo-seong-kim.jpg
+  image_circular: true
+  align: left
+  more_info: |
+    PhD Student<br>
+    2026 BS in Physics, Incheon National University
+
 # Template for new members:
 # - name: Full Name
 #   section: Group Leader | PhD Students | Master Students | Undergraduate Students | Alumni
