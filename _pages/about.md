@@ -51,5 +51,7 @@ Our main research areas include:
 ---
 
 <div style="margin-top: 1rem; text-align: center;">
-  <img src="/assets/img/skku_logo.png" alt="SKKU Logo" style="width: 100%; max-width: 400px;">
+  <a href="https://www.skku.edu/eng/" target="_blank" rel="noopener noreferrer">
+    <img src="/assets/img/skku_logo.png" alt="SKKU Logo" style="width: 100%; max-width: 400px;">
+  </a>
 </div>
