@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-20'
+  last_updated: '2026-03-09'
 papers:
   NURGJAwAAAAJ:9Nmd_mFXekcC:
     citations: 36
@@ -18,15 +18,15 @@ papers:
     title: "\uC0C9 \uBD80\uD638\uB97C \uD65C\uC6A9\uD55C \uACB0\uD568\uD5C8\uC6A9 \uC591\uC790\uCEF4\uD4E8\uD305"
     year: '2024'
   NURGJAwAAAAJ:EYYDruWGBe4C:
-    citations: 1
-    title: Efficient Post-Selection for General Quantum LDPC Codes
+    citations: 2
+    title: Efficient post-selection for general quantum LDPC codes
     year: '2025'
   NURGJAwAAAAJ:L7CI7m0gUJcC:
     citations: 1
     title: 'SDQC: Distributed Quantum Computing Architecture Utilizing Entangled Ion Qubit Shuttling'
     year: '2025'
   NURGJAwAAAAJ:ML0RJ9NH7IQC:
-    citations: 28
+    citations: 32
     title: Low-overhead magic state distillation with color codes
     year: '2025'
   NURGJAwAAAAJ:XD-gHx7UXLsC:
@@ -42,11 +42,11 @@ papers:
     title: Graph-theoretical optimization of fusion-based graph state generation
     year: '2023'
   NURGJAwAAAAJ:nrtMV_XWKgEC:
-    citations: 12
+    citations: 13
     title: Universal hardware-efficient topological measurement-based quantum computation via color-code-based cluster states
     year: '2022'
   NURGJAwAAAAJ:p__nRnzSRKYC:
-    citations: 39
+    citations: 43
     title: Color code decoder with improved scaling for correcting circuit-level noise
     year: '2025'
   NURGJAwAAAAJ:t7zJ5fGR-2UC:
@@ -54,7 +54,7 @@ papers:
     title: Loss-tolerant concatenated bell-state measurement with encoded coherent-state qubits for long-range quantum communication
     year: '2021'
   NURGJAwAAAAJ:uWiczbcajpAC:
-    citations: 26
+    citations: 29
     title: Fault-tolerant quantum computation by hybrid qubits with bosonic cat code and single photons
     year: '2024'
   NURGJAwAAAAJ:uc_IGeMz5qoC:
@@ -62,10 +62,10 @@ papers:
     title: Virtual distillation with noise dilution
     year: '2023'
   NURGJAwAAAAJ:vbGhcppDl1QC:
-    citations: 3
+    citations: 4
     title: Photonic hybrid quantum computing
     year: '2025'
   NURGJAwAAAAJ:zLWjf1WUPmwC:
-    citations: 12
+    citations: 13
     title: Parity-encoding-based quantum computing with Bayesian error tracking
     year: '2023'
