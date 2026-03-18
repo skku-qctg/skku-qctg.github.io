@@ -57,6 +57,7 @@ python bin/update_scholar_citations.py
 ```
 
 **Google Scholar Citations:**
+
 - The script fetches citation counts using the `scholar_userid` from `_data/socials.yml`
 - Citation data is stored in `_data/citations.yml` with keys in format `{scholar_userid}:{google_scholar_id}`
 - Each paper in `papers.bib` needs a `google_scholar_id` field to display citations
@@ -114,11 +115,13 @@ python bin/update_scholar_citations.py
 ## Publications
 
 Edit `_bibliography/papers.bib` to add publications. Supported BibTeX fields:
+
 - `abstract`, `arxiv`, `pdf`, `code`, `slides`, `poster`, `video`, `website`, `blog`
 - `preview` (thumbnail image in `assets/img/publication_preview/`)
 - `bibtex_show` (shows BibTeX button)
 
 Author highlighting configured in `_config.yml` under `scholar:`:
+
 ```yaml
 scholar:
   last_name: [Lee]
@@ -128,7 +131,9 @@ scholar:
 ## Creating Content
 
 ### New Blog Post
+
 Create `_posts/YYYY-MM-DD-title.md` with frontmatter:
+
 ```yaml
 ---
 layout: post
@@ -141,20 +146,24 @@ categories: [category]
 ```
 
 ### New Project
+
 Create `_projects/name.md` with frontmatter including `title`, `description`, `img`, `importance`, `category`.
 
 ### New News Item
+
 Create `_news/announcement_N.md` with `layout: post`, `date`, and optional `inline: true` for inline display.
 
 ### New Group Member
+
 Add entry to `_data/members.yml`:
+
 ```yaml
 - name: Full Name
   section: Group Leader | PhD Students | Master Students | Undergraduate Students | Alumni
-  image: filename.jpg  # place in assets/img/
+  image: filename.jpg # place in assets/img/
   image_circular: true
   align: left
-  content: about_name.md  # optional bio file in _pages/
+  content: about_name.md # optional bio file in _pages/
   links:
     - type: website
       url: https://...
@@ -165,4 +174,5 @@ Add entry to `_data/members.yml`:
     - type: email
       url: mailto:...
 ```
+
 Supported link types: `website`, `google_scholar`, `github`, `email`, `orcid`, `linkedin`
