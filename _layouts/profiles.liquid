@@ -5,7 +5,7 @@ layout: page
   <article>
     {% assign profiles = site.data.members %}
     {% if profiles %}
-      {% assign current_section = nil %}
+      {% assign current_section = null %}
       {% for profile in profiles %}
         {% if profile.section and profile.section != current_section %}
           {% assign current_section = profile.section %}
@@ -52,13 +52,20 @@ layout: page
                   <td class="link-text">
                     <a href="{{ link.url }}">
                       {% case link.type %}
-                        {% when 'website' %}Personal Website
-                        {% when 'google_scholar' %}Google Scholar
-                        {% when 'github' %}GitHub
-                        {% when 'email' %}Email
-                        {% when 'orcid' %}ORCID
-                        {% when 'linkedin' %}LinkedIn
-                        {% else %}{{ link.type }}
+                        {% when 'website' -%}
+                          Personal Website
+                        {% when 'google_scholar' -%}
+                          Google Scholar
+                        {% when 'github' -%}
+                          GitHub
+                        {% when 'email' -%}
+                          Email
+                        {% when 'orcid' -%}
+                          ORCID
+                        {% when 'linkedin' -%}
+                          LinkedIn
+                        {% else -%}
+                          {{- link.type }}
                       {% endcase %}
                     </a>
                   </td>
