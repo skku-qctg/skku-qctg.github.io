@@ -21,9 +21,17 @@
   more_info: |
     | 2026 | **BS in Physics**, Incheon National University |
 
+- name: GyuHyeong Choi
+  section: Visiting Students
+  image: gyuhyeong-choi.jpg
+  image_circular: true
+  align: left
+  more_info: |
+    **BS in Mediasoftware**, Sungkyul University
+
 # Template for new members:
 # - name: Full Name
-#   section: Group Leader | PhD Students | Master Students | Undergraduate Students | Alumni
+#   section: Group Leader | PhD Students | Master Students | Undergraduate Students | Visiting Students | Alumni
 #   image: filename.jpg  # place in assets/img/
 #   image_circular: true
 #   align: left
