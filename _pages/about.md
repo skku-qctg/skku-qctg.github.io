@@ -33,15 +33,6 @@ Our main research areas include:
 - **Non-Clifford Gate Implementation**: Designing resource-efficient methods for implementing non-Clifford gates (e.g., magic state distillation/cultivation)
 - **Photonic QEC**: Exploring measurement/fusion-based quantum computing with photonic qubits
 
-<div class="join-us" style="margin-top: 2rem; padding: 1rem; background-color: var(--global-bg-color); border-left: 4px solid var(--global-theme-color);">
-<h3 style="margin-top: 0;"><strong>Join Us</strong></h3>
-<ul style="font-size: 1.1rem; list-style: '▶  '; padding-left: 1.5rem; margin: 0;">
-<li>We are looking for <strong>motivated undergraduate/graduate students</strong> to join our group.</li>
-<!-- <li>We also have <strong><a href="https://www.quantiki.org/position/sungkyunkwan-sejong-university-co-advised-postdoc-quantum-error-correction-and-mitigation">one postdoc opening in quantum error correction/mitigation</a>.</strong></li> -->
-</ul>
-<p style="font-size: 1.1rem; margin-top: 0.5rem; margin-bottom: 0;">Please contact us at <a href="mailto:SeokHyungLee@skku.edu">SeokHyungLee@skku.edu</a>.</p>
-</div>
-
 ---
 
 <div style="text-align: center;">
