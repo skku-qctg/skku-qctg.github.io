@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-01'
+  last_updated: '2026-04-20'
 papers:
   NURGJAwAAAAJ:9Nmd_mFXekcC:
-    citations: 37
+    citations: 39
     title: All-photonic architecture for scalable quantum computing with Greenberger-Horne-Zeilinger states
     year: '2022'
   NURGJAwAAAAJ:AvfA0Oy_GE0C:
@@ -18,15 +18,19 @@ papers:
     title: "\uC0C9 \uBD80\uD638\uB97C \uD65C\uC6A9\uD55C \uACB0\uD568\uD5C8\uC6A9 \uC591\uC790\uCEF4\uD4E8\uD305"
     year: '2024'
   NURGJAwAAAAJ:EYYDruWGBe4C:
-    citations: 2
+    citations: 3
     title: Efficient post-selection for general quantum LDPC codes
     year: '2025'
+  NURGJAwAAAAJ:ILKRHgRFtOwC:
+    citations: 0
+    title: Low-valency scalable quantum error correction with a dynamic compass code
+    year: '2026'
   NURGJAwAAAAJ:L7CI7m0gUJcC:
     citations: 1
     title: 'SDQC: Distributed Quantum Computing Architecture Utilizing Entangled Ion Qubit Shuttling'
     year: '2025'
   NURGJAwAAAAJ:ML0RJ9NH7IQC:
-    citations: 34
+    citations: 36
     title: Low-overhead magic state distillation with color codes
     year: '2025'
   NURGJAwAAAAJ:XD-gHx7UXLsC:
@@ -41,20 +45,24 @@ papers:
     citations: 34
     title: Graph-theoretical optimization of fusion-based graph state generation
     year: '2023'
+  NURGJAwAAAAJ:hMsQuOkrut0C:
+    citations: 0
+    title: Scalable quantum error correction tailored for a heavy-hex qubit array
+    year: '2026'
   NURGJAwAAAAJ:nrtMV_XWKgEC:
-    citations: 13
+    citations: 14
     title: Universal hardware-efficient topological measurement-based quantum computation via color-code-based cluster states
     year: '2022'
   NURGJAwAAAAJ:p__nRnzSRKYC:
-    citations: 43
+    citations: 47
     title: Color code decoder with improved scaling for correcting circuit-level noise
     year: '2025'
   NURGJAwAAAAJ:t7zJ5fGR-2UC:
-    citations: 3
+    citations: 4
     title: Loss-tolerant concatenated bell-state measurement with encoded coherent-state qubits for long-range quantum communication
     year: '2021'
   NURGJAwAAAAJ:uWiczbcajpAC:
-    citations: 32
+    citations: 36
     title: Fault-tolerant quantum computation by hybrid qubits with bosonic cat code and single photons
     year: '2024'
   NURGJAwAAAAJ:uc_IGeMz5qoC:
@@ -62,9 +70,9 @@ papers:
     title: Virtual distillation with noise dilution
     year: '2023'
   NURGJAwAAAAJ:vbGhcppDl1QC:
-    citations: 5
+    citations: 7
     title: Photonic hybrid quantum computing
-    year: '2025'
+    year: '2026'
   NURGJAwAAAAJ:zLWjf1WUPmwC:
     citations: 13
     title: Parity-encoding-based quantum computing with Bayesian error tracking
