@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-01'
+  last_updated: '2026-05-04'
 papers:
   NURGJAwAAAAJ:9Nmd_mFXekcC:
     citations: 39
@@ -54,7 +54,7 @@ papers:
     title: Universal hardware-efficient topological measurement-based quantum computation via color-code-based cluster states
     year: '2022'
   NURGJAwAAAAJ:p__nRnzSRKYC:
-    citations: 47
+    citations: 48
     title: Color code decoder with improved scaling for correcting circuit-level noise
     year: '2025'
   NURGJAwAAAAJ:t7zJ5fGR-2UC:
@@ -62,7 +62,7 @@ papers:
     title: Loss-tolerant concatenated bell-state measurement with encoded coherent-state qubits for long-range quantum communication
     year: '2021'
   NURGJAwAAAAJ:uWiczbcajpAC:
-    citations: 37
+    citations: 38
     title: Fault-tolerant quantum computation by hybrid qubits with bosonic cat code and single photons
     year: '2024'
   NURGJAwAAAAJ:uc_IGeMz5qoC:
