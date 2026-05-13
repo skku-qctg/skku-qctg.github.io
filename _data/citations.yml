@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-04'
+  last_updated: '2026-05-13'
 papers:
   NURGJAwAAAAJ:9Nmd_mFXekcC:
     citations: 39
@@ -8,7 +8,7 @@ papers:
   NURGJAwAAAAJ:AvfA0Oy_GE0C:
     citations: 0
     title: Method and apparatus for linear optical quantum computing
-    year: '2024'
+    year: '2026'
   NURGJAwAAAAJ:BUYA1_V_uYcC:
     citations: 0
     title: Universal Resource-efficient Topological Measurement-based Quantum Computing
@@ -18,7 +18,7 @@ papers:
     title: "\uC0C9 \uBD80\uD638\uB97C \uD65C\uC6A9\uD55C \uACB0\uD568\uD5C8\uC6A9 \uC591\uC790\uCEF4\uD4E8\uD305"
     year: '2024'
   NURGJAwAAAAJ:EYYDruWGBe4C:
-    citations: 4
+    citations: 5
     title: Efficient post-selection for general quantum LDPC codes
     year: '2025'
   NURGJAwAAAAJ:ILKRHgRFtOwC:
@@ -30,7 +30,7 @@ papers:
     title: 'SDQC: Distributed Quantum Computing Architecture Utilizing Entangled Ion Qubit Shuttling'
     year: '2025'
   NURGJAwAAAAJ:ML0RJ9NH7IQC:
-    citations: 36
+    citations: 37
     title: Low-overhead magic state distillation with color codes
     year: '2025'
   NURGJAwAAAAJ:XD-gHx7UXLsC:
@@ -62,7 +62,7 @@ papers:
     title: Loss-tolerant concatenated bell-state measurement with encoded coherent-state qubits for long-range quantum communication
     year: '2021'
   NURGJAwAAAAJ:uWiczbcajpAC:
-    citations: 38
+    citations: 39
     title: Fault-tolerant quantum computation by hybrid qubits with bosonic cat code and single photons
     year: '2024'
   NURGJAwAAAAJ:uc_IGeMz5qoC:
@@ -70,7 +70,7 @@ papers:
     title: Virtual distillation with noise dilution
     year: '2023'
   NURGJAwAAAAJ:vbGhcppDl1QC:
-    citations: 7
+    citations: 8
     title: Photonic hybrid quantum computing
     year: '2026'
   NURGJAwAAAAJ:zLWjf1WUPmwC:
