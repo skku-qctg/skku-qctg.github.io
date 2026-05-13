@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg" width="1000" height="360">
+                
+                <!-- 
+                    Letter Q (Blue) 
+                    Starts top-right, goes up, left, down, right leaving a gap at bottom right.
+                -->
+                <path fill="none" stroke="#3b82f6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="&#10;                    M 110,80&#10;                    L 110,50 C 110,38.95 101.05,30 90,30&#10;                    L 50,30 C 38.95,30 30,38.95 30,50&#10;                    L 30,90 C 30,101.05 38.95,110 50,110&#10;                    L 80,110&#10;                "/>
+
+                <!-- 
+                    Circuit Main Line & Q's Tail
+                    Starts perfectly inside the Q's gap, extends to form the quantum wire.
+                -->
+                <path fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M 75,75 L 130,130 L 480,130"/>
+
+                <!-- Letter C -->
+                <path fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="&#10;                    M 220,30&#10;                    L 160,30 C 148.95,30 140,38.95 140,50&#10;                    L 140,90 C 140,101.05 148.95,110 160,110&#10;                    L 220,110&#10;                "/>
+
+                <!-- 
+                    Letter T / CNOT Gate
+                -->
+                <!-- T Top Bar -->
+                <path fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M 250,30 L 330,30"/>
+                
+                <!-- Vertical Stem intersecting the main wire -->
+                <path fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M 290,30 L 290,148"/>
+                
+                <!-- CNOT Control Dot (Vertex of T) -->
+                <circle fill="#ffffff" cx="290" cy="30" r="10"/>
+                
+                <!-- CNOT Target Symbol (Intersection) -->
+                <!-- The cross is naturally formed by the vertical stem and horizontal wire passing through. -->
+                <circle fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" cx="290" cy="130" r="18"/>
+
+                <!-- Letter G -->
+                <path fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="&#10;                    M 440,30&#10;                    L 380,30 C 368.95,30 360,38.95 360,50&#10;                    L 360,90 C 360,101.05 368.95,110 380,110&#10;                    L 420,110 C 431.05,110 440,101.05 440,90&#10;                    L 440,70&#10;                    L 400,70&#10;                "/>
+            </svg>
