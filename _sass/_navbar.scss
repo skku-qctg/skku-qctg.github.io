@@ -59,6 +59,20 @@
     color: var(--global-text-color);
   }
 
+  .qctg-navbar-brand {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .qctg-navbar-logo {
+    width: auto;
+    height: 40px;
+    max-width: min(48vw, 240px);
+    object-fit: contain;
+  }
+
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
 
@@ -112,6 +126,34 @@
         }
       }
     }
+  }
+}
+
+.qctg-home-logo-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.qctg-home-logo {
+  width: calc(100vw - 2rem);
+  max-width: 420px;
+  height: auto;
+}
+
+.qctg-about-header .post-title {
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 576px) {
+  .qctg-about-page {
+    width: calc(100vw - 2rem);
+    max-width: calc(100vw - 2rem);
+  }
+
+  .qctg-about-page iframe,
+  .qctg-about-page img {
+    max-width: 100%;
   }
 }
 

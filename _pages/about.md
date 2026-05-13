@@ -36,7 +36,7 @@ Our main research areas include:
 ---
 
 <div style="text-align: center;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/BiBezQUnXdI?si=lgwdtpCGqqW2Kgjs" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/BiBezQUnXdI?si=lgwdtpCGqqW2Kgjs" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%; max-width: 560px; aspect-ratio: 16 / 9; height: auto;"></iframe>
 </div>
 
 ---

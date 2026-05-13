@@ -1,8 +1,12 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
+<div class="post qctg-about-page">
+  <header class="post-header qctg-about-header">
+    <div class="qctg-home-logo-wrap">
+      <img class="qctg-home-logo only-light" src="{{ '/assets/img/qctg_cnot_logo.svg' | relative_url }}" alt="" aria-hidden="true">
+      <img class="qctg-home-logo only-dark" src="{{ '/assets/img/qctg_cnot_logo_dark.svg' | relative_url }}" alt="" aria-hidden="true">
+    </div>
     <h1 class="post-title" style="font-weight: bold;">
       {% if site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
