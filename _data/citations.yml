@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-05-13'
+  last_updated: '2026-05-20'
 papers:
   NURGJAwAAAAJ:9Nmd_mFXekcC:
-    citations: 39
+    citations: 40
     title: All-photonic architecture for scalable quantum computing with Greenberger-Horne-Zeilinger states
     year: '2022'
   NURGJAwAAAAJ:AvfA0Oy_GE0C:
@@ -38,7 +38,7 @@ papers:
     title: Teleportation of a multiphoton qubit using hybrid entanglement with a loss-tolerant carrier qubit
     year: '2020'
   NURGJAwAAAAJ:Z5m8FVwuT1cC:
-    citations: 0
+    citations: 1
     title: Highly fault-tolerant quantum computing using both discrete and continuous variables of light
     year: '2023'
   NURGJAwAAAAJ:epqYDVWIO7EC:
@@ -62,7 +62,7 @@ papers:
     title: Loss-tolerant concatenated bell-state measurement with encoded coherent-state qubits for long-range quantum communication
     year: '2021'
   NURGJAwAAAAJ:uWiczbcajpAC:
-    citations: 39
+    citations: 44
     title: Fault-tolerant quantum computation by hybrid qubits with bosonic cat code and single photons
     year: '2024'
   NURGJAwAAAAJ:uc_IGeMz5qoC:
