@@ -21,6 +21,14 @@
   more_info: |
     | 2026 | **BS in Physics**, Incheon National University |
 
+- name: Chanhui Park
+  section: Undergraduates
+  image: chanhui-park.jpg
+  image_circular: true
+  align: left
+  more_info: |
+    Sungkyunkwan University, Major in Physics and Nano Engineering
+
 - name: GyuHyeong Choi
   section: Visiting Students
   image: gyuhyeong-choi.jpg
@@ -29,9 +37,25 @@
   more_info: |
     | 2026 | **BS in Mediasoftware**, Sungkyul University |
 
+- name: Ju Yeob Kim
+  section: Visiting Students
+  image: juyeob-kim.jpeg
+  image_circular: true
+  align: left
+  more_info: |
+    | 2024 | **BS in Physics / Computer Science and Engineering**, Sungkyunkwan University |
+
+- name: Yuha Choi
+  section: Visiting Students
+  image: yuha-choi.jpg
+  image_circular: true
+  align: left
+  more_info: |
+    Undergraduate, Purdue University, Major in Electrical Engineering
+
 # Template for new members:
 # - name: Full Name
-#   section: Group Leader | PhD Students | Master Students | Undergraduate Students | Visiting Students | Alumni
+#   section: Group Leader | PhD Students | Master Students | Undergraduates | Visiting Students | Alumni
 #   image: filename.jpg  # place in assets/img/
 #   image_circular: true
 #   align: left
