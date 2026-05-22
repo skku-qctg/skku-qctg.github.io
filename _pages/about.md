@@ -31,7 +31,7 @@ Our main research areas include:
 - **QEC Code & Circuit Design**: Developing and optimizing quantum error-correcting codes and their circuit implementations
 - **Decoding Algorithms**: Creating high-performance and efficient algorithms to decode syndrome information and correct errors
 - **Non-Clifford Gate Implementation**: Designing resource-efficient methods for implementing non-Clifford gates (e.g., magic state distillation/cultivation)
-- **Photonic QEC**: Exploring measurement/fusion-based quantum computing with photonic qubits
+- **Hardware-Tailored QEC**: Exploring QEC designs tailored to and optimized for specific hardware platforms, including superconducting, photonic, and trapped-ion qubits
 
 ---
 
