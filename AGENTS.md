@@ -28,6 +28,8 @@ docker compose up --build
 
 **Port configuration**: Use port `8080` by default. If port `8080` is already occupied, use another available port such as `8081` or `8082`.
 
+After every website modification, run or reuse the local server, open the affected route in a browser, verify the rendered change visually, and leave the local URL and browser tab available for the user to inspect directly.
+
 ### Local Development without Docker
 
 ```bash
