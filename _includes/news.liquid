@@ -1,34 +1,36 @@
 <div class="news">
   {% if site.news != blank %}
-    {% assign news_size = site.news | size %}
-    <div
-      class="table-responsive"
-      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
+    {% assign news = site.news | sort: 'date' | reverse %}
+
+    {% if include.limit %}
+      {% if page.announcements.limit %}
+        {% assign news_limit = page.announcements.limit %}
+      {% else %}
+        {% assign news_limit = news | size %}
       {% endif %}
-    >
-      <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
-        {% if include.limit and page.announcements.limit %}
-          {% assign news_limit = page.announcements.limit %}
-        {% else %}
-          {% assign news_limit = news_size %}
-        {% endif %}
-        {% for item in news limit: news_limit %}
-          <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
-            <td>
-              {% if item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-              {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-              {% endif %}
-            </td>
-          </tr>
+      {% include news_table.liquid items=news limit=news_limit scrollable=page.announcements.scrollable %}
+    {% else %}
+      <ul class="tab" data-tab="notice-category-content">
+        <li id="notice-all" class="active"><a href="#">All</a></li>
+        {% for category in page.display_categories %}
+          {% assign category_id = category | slugify %}
+          <li id="notice-{{ category_id }}"><a href="#">{{ category }}</a></li>
         {% endfor %}
-      </table>
-    </div>
+      </ul>
+
+      <ul id="notice-category-content" class="tab-content">
+        <li class="active">
+          {% include news_table.liquid items=news %}
+        </li>
+        {% for category in page.display_categories %}
+          {% assign categorized_news = news | where: 'category', category %}
+          <li>
+            {% include news_table.liquid items=categorized_news %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   {% else %}
-    <p>No news so far...</p>
+    <p>No notices so far...</p>
   {% endif %}
 </div>

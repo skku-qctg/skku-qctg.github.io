@@ -160,6 +160,7 @@ collections:
     defaults:
       layout: post
     output: true
+    permalink: /notice/:name/
   projects:
     output: true
   teachings:

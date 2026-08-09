@@ -2,11 +2,12 @@
 layout: post
 title: "Postdoc 모집 (분야: Early FTQC Resource Estimation)"
 date: 2026-08-09
+category: Hiring
 inline: false
 related_posts: false
 ---
 
-<!-- Provenance: Adapted from postdoc_recruitment_ko.md in the referenced Codex task on 2026-08-09 at repository commit cbc2c8c. Intended as the first detailed News post. -->
+<!-- Provenance: Adapted from postdoc_recruitment_ko.md in the referenced Codex task on 2026-08-09 at repository commit cbc2c8c. Intended as the first detailed Notice post. -->
 
 ## 1. 연구실 및 책임연구자 소개
 
@@ -16,8 +17,7 @@ related_posts: false
 
 ## 2. 모집 분야 및 담당 연구
 
-### 모집 분야
-
+**모집 분야:**
 - Quantum Algorithms
 - Quantum Error Correction
 - Quantum Error Mitigation

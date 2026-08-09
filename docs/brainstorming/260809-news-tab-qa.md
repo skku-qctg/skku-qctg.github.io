@@ -62,3 +62,7 @@ Should the confirmed design proceed through a saved specification, an automatica
 ### A6
 
 Proceed directly to implementation without creating a separate specification.
+
+## Post-Implementation Revision
+
+After reviewing the first published item locally, the user changed the public section name from `News` to `Notice`, changed the index URL from `/news/` to `/notice/`, and requested category tabs ordered as `All`, `Hiring`, and `News`. The first postdoctoral recruitment item belongs to `Hiring`. The internal al-folio collection remains `_news` for compatibility.
