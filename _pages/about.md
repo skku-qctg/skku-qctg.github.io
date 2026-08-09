@@ -33,6 +33,10 @@ Our main research areas include:
 - **Non-Clifford Gate Implementation**: Designing resource-efficient methods for implementing non-Clifford gates (e.g., magic state distillation/cultivation)
 - **Hardware-Tailored QEC**: Exploring QEC designs tailored to and optimized for specific hardware platforms, including superconducting, photonic, and trapped-ion qubits
 
+<div class="postdoc-opening-callout">
+  <h3><a href="{{ '/notice/?active_tab=notice-hiring#notice-category-tabs' | relative_url }}">We have one postdoc opening!</a></h3>
+</div>
+
 ---
 
 <div style="text-align: center;">

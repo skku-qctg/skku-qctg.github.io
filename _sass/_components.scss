@@ -34,6 +34,32 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 }
 
+// Homepage callout
+
+.postdoc-opening-callout {
+  width: fit-content;
+  max-width: 100%;
+  margin: 2rem auto;
+  padding: 0.75rem 1.25rem;
+  border: 2px solid var(--global-theme-color);
+  text-align: center;
+
+  h3 {
+    margin: 0;
+    font-weight: 700;
+  }
+
+  a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: underline;
+    }
+  }
+}
+
 // Card
 
 .card {

@@ -10,7 +10,7 @@
       {% endif %}
       {% include news_table.liquid items=news limit=news_limit scrollable=page.announcements.scrollable %}
     {% else %}
-      <ul class="tab" data-tab="notice-category-content">
+      <ul id="notice-category-tabs" class="tab" data-tab="notice-category-content">
         <li id="notice-all" class="active"><a href="#">All</a></li>
         {% for category in page.display_categories %}
           {% assign category_id = category | slugify %}
