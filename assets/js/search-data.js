@@ -23,7 +23,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{
+        },{id: "nav-notice",
+          title: "Notice",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/notice/";
+          },
+        },{id: "news-postdoc-모집-분야-early-ftqc-resource-estimation",
+          title: 'Postdoc 모집 (분야: Early FTQC Resource Estimation)',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/notice/2026-08-09-postdoc-recruitment/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
