@@ -7,8 +7,6 @@ inline: false
 related_posts: false
 ---
 
-<!-- Provenance: Adapted from postdoc_recruitment_ko.md in the referenced Codex task on 2026-08-09 at repository commit cbc2c8c. Intended as the first detailed Notice post. -->
-
 ## 1. 연구실 및 책임연구자 소개
 
 성균관대학교 양자공학과 [Quantum Computing Theory Group (QCTG)](https://skku-qctg.github.io)은 양자정보 및 양자컴퓨팅 이론을 연구하는 그룹입니다. 특히 양자 오류 정정(Quantum Error Correction, QEC)을 중심으로 자원 효율적이고 결함허용 가능한 양자컴퓨팅 방법을 개발하며, 오류 정정 코드와 회로 설계, 디코딩 알고리즘, non-Clifford 게이트 구현, 하드웨어 맞춤형 오류 정정 등을 연구합니다.
@@ -34,8 +32,10 @@ related_posts: false
 
 ## 3. 지원 자격
 
-- 물리학, 컴퓨터과학, 수학, 공학 또는 관련 분야의 박사학위 소지자(또는 지원일 기준 6개월 이내 졸업 예정인 박사과정 수료자)
-- 양자정보 분야 SCI(E)급 학술지 제1저자 논문 1편 이상 보유자
+다음 조건이 모두 만족되어야 함:
+- 물리학, 컴퓨터과학, 수학, 공학 또는 관련 분야의 박사학위 소지(또는 지원일 기준 6개월 이내 졸업 예정)
+- 양자정보 분야 SCI(E)급 학술지 제1저자 논문 1편 이상 보유
+- 원활한 한국어 소통이 가능 (과제 특성상 필요)
 
 ## 4. 근무 조건
 
