@@ -20,7 +20,25 @@
   align: left
   more_info: |
     | 2026 - Present | **PhD Student**, Sungkyunkwan University |
-    | 2020 - 2026 | **BS in Physics**, Incheon National University |
+    | 2026 | **BS in Physics**, Incheon National University |
+
+- name: GyuHyeong Choi
+  section: PhD Students
+  image: gyuhyeong-choi.jpg
+  image_circular: true
+  align: left
+  more_info: |
+    | 2026 - Present | **PhD Student**, Sungkyunkwan University |
+    | 2026 | **BS in Mediasoftware**, Sungkyul University |
+
+- name: Ju Yeob Kim
+  section: PhD Students
+  image: juyeob-kim.jpeg
+  image_circular: true
+  align: left
+  more_info: |
+    | 2026 - Present | **PhD Student**, Sungkyunkwan University |
+    | 2024 | **BS in Physics / Computer Science and Engineering**, Sungkyunkwan University |
 
 - name: Chanhui Park
   section: Undergraduates
@@ -29,22 +47,6 @@
   align: left
   more_info: |
     Sungkyunkwan University, Major in Physics / Nano Engineering
-
-- name: GyuHyeong Choi
-  section: Visiting Students
-  image: gyuhyeong-choi.jpg
-  image_circular: true
-  align: left
-  more_info: |
-    | 2026 | **BS in Mediasoftware**, Sungkyul University |
-
-- name: Ju Yeob Kim
-  section: Visiting Students
-  image: juyeob-kim.jpeg
-  image_circular: true
-  align: left
-  more_info: |
-    | 2024 | **BS in Physics / Computer Science and Engineering**, Sungkyunkwan University |
 
 # Template for new members:
 # - name: Full Name
