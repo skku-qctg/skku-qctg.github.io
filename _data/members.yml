@@ -48,6 +48,21 @@
   more_info: |
     Sungkyunkwan University, Major in Physics / Nano Engineering
 
+- name: Jae Hyeon Kim
+  section: Undergraduates
+  image: jae-hyeon-kim.jpg
+  image_circular: true
+  align: left
+  more_info: |
+    Sungkyunkwan University, Major in Computer Science / Physics
+
+    **Research interests:** Quantum Computing, Quantum Algorithm, Quantum Error Correction
+  links:
+    - type: github
+      url: https://github.com/jkim734
+    - type: linkedin
+      url: https://www.linkedin.com/in/jaehyun-kim-12735a192/
+
 # Template for new members:
 # - name: Full Name
 #   section: Group Leader | PhD Students | Master Students | Undergraduates | Visiting Students | Alumni
