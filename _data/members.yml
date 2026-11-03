@@ -63,6 +63,17 @@
     - type: linkedin
       url: https://www.linkedin.com/in/jaehyun-kim-12735a192/
 
+- name: Seok-Jun Kim
+  section: Undergraduates
+  image: seok-jun-kim.jpg
+  image_circular: true
+  align: left
+  more_info: |
+    | 2022 - Present | Sungkyunkwan University, Major in Computer Science |
+  links:
+    - type: github
+      url: https://github.com/seokjun4321
+
 # Template for new members:
 # - name: Full Name
 #   section: Group Leader | PhD Students | Master Students | Undergraduates | Visiting Students | Alumni
