@@ -63,6 +63,7 @@ python bin/update_scholar_citations.py
 ```
 
 **Google Scholar citations:**
+
 - The script fetches citation counts using the `scholar_userid` from `_data/socials.yml`.
 - Citation data is stored in `_data/citations.yml` with keys in the format `{scholar_userid}:{google_scholar_id}`.
 - Each paper in `_bibliography/papers.bib` needs a `google_scholar_id` field to display citations.
