@@ -16,6 +16,7 @@ related_posts: false
 ## 2. 모집 분야 및 담당 연구
 
 **모집 분야:**
+
 - Quantum Algorithms
 - Quantum Error Correction
 - Quantum Error Mitigation
@@ -33,6 +34,7 @@ related_posts: false
 ## 3. 지원 자격
 
 다음 조건이 모두 만족되어야 함:
+
 - 물리학, 컴퓨터과학, 수학, 공학 또는 관련 분야의 박사학위 소지(또는 지원일 기준 6개월 이내 졸업 예정)
 - 양자정보 분야 SCI(E)급 학술지 제1저자 논문 1편 이상 보유
 - 원활한 한국어 소통이 가능 (과제 특성상 필요)

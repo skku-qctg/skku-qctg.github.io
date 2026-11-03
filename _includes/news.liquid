@@ -14,7 +14,9 @@
         <li id="notice-all" class="active"><a href="#">All</a></li>
         {% for category in page.display_categories %}
           {% assign category_id = category | slugify %}
-          <li id="notice-{{ category_id }}"><a href="#">{{ category }}</a></li>
+          <li id="notice-{{ category_id }}">
+            <a href="#">{{ category }}</a>
+          </li>
         {% endfor %}
       </ul>
 

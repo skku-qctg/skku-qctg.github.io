@@ -4,12 +4,12 @@ This repository is the SKKU QCTG website. Preserve its existing al-folio content
 
 ## Task routing
 
-| Task | Guidance |
-| --- | --- |
-| Development server, build, or formatting | The relevant command section of [agent workflows](docs/agent-workflows.md). Prefer the documented Docker environment. |
-| Content, navigation, configuration, or styles | The corresponding architecture section of [agent workflows](docs/agent-workflows.md). |
-| Publications | The Publications section of [agent workflows](docs/agent-workflows.md). |
-| News, members, projects, or blog posts | The matching content example in [agent workflows](docs/agent-workflows.md). |
+| Task                                          | Guidance                                                                                                              |
+| --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Development server, build, or formatting      | The relevant command section of [agent workflows](docs/agent-workflows.md). Prefer the documented Docker environment. |
+| Content, navigation, configuration, or styles | The corresponding architecture section of [agent workflows](docs/agent-workflows.md).                                 |
+| Publications                                  | The Publications section of [agent workflows](docs/agent-workflows.md).                                               |
+| News, members, projects, or blog posts        | The matching content example in [agent workflows](docs/agent-workflows.md).                                           |
 
 Inspect the affected content and related conventions; do not read all setup and authoring examples for every edit.
 Keep unrelated content, configuration, images, and generated artifacts unchanged.
