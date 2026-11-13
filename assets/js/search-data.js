@@ -30,11 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/notice/";
           },
-        },{id: "news-postdoc-모집-분야-early-ftqc-resource-estimation",
-          title: 'Postdoc 모집 (분야: Early FTQC Resource Estimation)',
+        },{id: "news-postdoc-모집-분야-quantum-algorithms-quantum-error-correction",
+          title: 'Postdoc 모집 (분야: Quantum Algorithms / Quantum Error Correction)',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/notice/2026-08-09-postdoc-recruitment/";
+              window.location.href = "/notice/2026-11-13-postdoc-recruitment/";
             },},{
         id: 'social-email',
         title: 'email',
