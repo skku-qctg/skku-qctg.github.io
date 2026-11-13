@@ -34,7 +34,7 @@ Our main research areas include:
 - **Hardware-Tailored QEC**: Exploring QEC designs tailored to and optimized for specific hardware platforms, including superconducting, photonic, and trapped-ion qubits
 
 <div class="postdoc-opening-callout">
-  <h3><a href="{{ '/notice/?active_tab=notice-hiring#notice-category-tabs' | relative_url }}">We have one postdoc opening!</a></h3>
+  <h3><a href="{{ '/notice/2026-11-13-postdoc-recruitment/' | relative_url }}">We have one postdoc opening!</a></h3>
 </div>
 
 ---
