@@ -73,6 +73,17 @@
   links:
     - type: github
       url: https://github.com/seokjun4321
+
+- name: Jiwoong Lim
+  section: Undergraduates
+  image: jiwoong-lim.jpg
+  image_circular: true
+  align: left
+  more_info: |
+    | 2025 - Present | **BS in Computer Science and Engineering**, Seoul National University |
+
+    **Research interests:** Quantum Error Correction, Quantum Information Theory
+
 # Template for new members:
 # - name: Full Name
 #   section: Group Leader | PhD Students | Master Students | Undergraduates | Visiting Students | Alumni
